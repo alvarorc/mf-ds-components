@@ -1,0 +1,13 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react",
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "preserveSymlinks": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*", "dist", "node_modules"]
+}
